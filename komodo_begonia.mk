@@ -23,10 +23,10 @@ $(call inherit-product, device/xiaomi/begonia/device.mk)
 # Inherit from begonia interfaces makefile
 $(call inherit-product, device/xiaomi/begonia/mtk-interfaces.mk)
 
-# Inherit some PE source stuff
-TARGET_SUPPORTS_QUICK_TAP := true
+# Inherit some Komodo source stuff
+$(call inherit-product, vendor/komodo/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+KOMODO_OFFICIAL := true
 
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 2340
@@ -34,7 +34,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := aosp_begonia
+PRODUCT_NAME := komodo_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
