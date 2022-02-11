@@ -25,6 +25,7 @@ $(call inherit-product, device/xiaomi/begonia/mtk-interfaces.mk)
 
 # Inherit some Komodo source stuff
 $(call inherit-product, vendor/komodo/config/common.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 KOMODO_OFFICIAL := true
 
