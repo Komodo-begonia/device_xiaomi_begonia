@@ -27,6 +27,7 @@ $(call inherit-product, device/xiaomi/begonia/mtk-interfaces.mk)
 $(call inherit-product, vendor/komodo/config/common.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
+KOMODO_GAPPS_TYPE := gapps
 KOMODO_OFFICIAL := true
 
 # Boot Animation
