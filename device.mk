@@ -119,17 +119,11 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.device@3.3.vendor \
-    android.hardware.camera.device@3.4.vendor \
-    android.hardware.camera.device@3.5.vendor \
     android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.4.vendor \
-    android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor
 
 # Device Specific Settings
@@ -162,10 +156,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
 
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0.vendor \
-    android.hardware.drm@1.1.vendor \
-    android.hardware.drm@1.2.vendor \
-    android.hardware.drm@1.3.vendor \
     android.hardware.drm@1.4.vendor
 
 # Fingerprint
@@ -248,8 +238,6 @@ PRODUCT_PACKAGES += \
 
 # Network
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.1.vendor \
-    android.hardware.neuralnetworks@1.2.vendor \
     android.hardware.neuralnetworks@1.3.vendor
 
 # NFC
@@ -266,8 +254,6 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.radio.config@1.0.vendor \
-    android.hardware.radio.config@1.1.vendor \
     android.hardware.radio.config@1.2.vendor
 
 # Ramdisk
@@ -346,7 +332,7 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-     android.hardware.vibrator-V1-ndk_platform.vendor
+    android.hardware.vibrator-V1-ndk_platform.vendor
 
 # WiFi
 PRODUCT_PACKAGES += \
